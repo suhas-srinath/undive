@@ -40,5 +40,5 @@ if __name__ == '__main__':
     print("Done!")
 
 '''
-python preprocess.py --image-path "/media/suhas/Data/uwe_hemang/Datasets/EUVP/raw_inputs" --depthmap-path "/media/suhas/Data/uwe_hemang/Datasets/EUVP/depthmaps" --output-path "/media/suhas/Data/uwe_hemang/Datasets/EUVP/bsr_images"
+python preprocess.py --image-path "path_to_raw_inputs" --depthmap-path "path_to_depthmaps" --output-path "path_to_bsr_images"
 '''
