@@ -1,2 +1,3 @@
-# UnDIVE [1305]
-Official repository for our WACV 2025 submission titled "UnDIVE: Generalized Underwater Video Enhancement Using Generative Priors". 
+# [WACV 2025] UnDIVE 
+Official repository for our WACV 2025 paper titled "UnDIVE: Generalized Underwater Video Enhancement Using Generative Priors". 
+Full codebase will be released soon.
