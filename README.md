@@ -3,7 +3,6 @@
 <h3>Generalized Underwater Video Enhancement Using Generative Priors</h3> 
   
 [Suhas Srinath]()<sup>1</sup> [Aditya Chandrasekar]()<sup>2</sup> [Hemang Jamadagni]()<sup>3</sup> [Rajiv Soundararajan]()<sup>1</sup> [Prathosh A P]()<sup>1</sup> <br>
-<sup>1</sup>Indian Institute of Science  <sup>2</sup>Qualcomm  <sup>3</sup>National Institute of Technology Karnataka <br>
 WACV 2025 ([conference paper](https://openaccess.thecvf.com/content/WACV2025/papers/Srinath_UnDIVE_Generalized_Underwater_Video_Enhancement_using_Generative_Priors_WACV_2025_paper.pdf)) ArXiv Preprint([arXiv 2411.05886](https://arxiv.org/pdf/2411.05886))
 </div>
 
@@ -25,9 +24,9 @@ conda activate undive
 ```
 ### Download Pretrain Model Weights
 [Download](https://drive.google.com/file/d/1FP0wuYQX0t0of9gqDO_gyUiMK7UYXRG-/view?usp=sharing) the ZIP file and extract into `./PretrainedModels`<br><br>
-      ```DDPM_100.pth``` : DDPM trained on [UIEB](https://li-chongyi.github.io/proj_benchmark.html) for 100 epochs.<br>
-      ```UIEB_pretrain_150.pth``` : Trained on [UIEB](https://li-chongyi.github.io/proj_benchmark.html) for 150 epochs.<br>
-      ```UnDIVE_100.pth``` : Resumed UIEB_pretrain_150 for more epochs with temporal consistancy loss on [UVE-38k](https://github.com/TrentQiQ/UVE-38K).<br>
+      ```DDPM_100.pth``` : DDPM trained on [UIEB](https://li-chongyi.github.io/proj_benchmark.html) <br>
+      ```UIEB_pretrain_150.pth``` : Pre-training on [UIEB](https://li-chongyi.github.io/proj_benchmark.html) <br>
+      ```UnDIVE_100.pth``` : Model fine-tuned with temporal consistancy loss on [UVE-38k](https://github.com/TrentQiQ/UVE-38K).<br>
 ### Prepare Dataset
 ```
 📂 Data/
@@ -103,7 +102,7 @@ python inference.py --test-video <test video root>
 
 
 ## Citation
-If you find UnDIVE is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+If you find UnDIVE useful in your research or applications, please consider giving us a star 🌟 and citing it using the following:
 
 ```bibtex
 @InProceedings{Srinath_2025_WACV,
