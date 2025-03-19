@@ -7,7 +7,7 @@ from collections import OrderedDict
 from slice import bilateral_slice
 import os
 
-from hediffmodel import DiffusionNet
+from DDPM import DiffusionNet
 
 class L2LOSS(nn.Module):
     def forward(self, x,y):
