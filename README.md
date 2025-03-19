@@ -16,8 +16,8 @@ With the rise of marine exploration, underwater imaging has gained significant a
 ![](Assets/overview.png)
 
 ## Usage
-For a help Menu
-use ```python <filename> -h```
+For a help Menu <br>
+Run ```python <filename> -h```
 ### Setup Environment
 ```bash
 conda create -n undive -f environment.yml
