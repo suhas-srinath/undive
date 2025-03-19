@@ -1,6 +1,6 @@
 # Generative Prior
-For a help Menu
-use ```python <filename> -h```
+For a help Menu<br>
+run ```python <filename> -h```
 ## Setup Environment
 ```bash
 conda create -n undive_ddpm -f environment.yml
