@@ -21,7 +21,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='TC-HDRNet')
 parser.add_argument('--output_folder',default='Gen', type=str, help='Path to Generation Output(Default :Gen)')
-parser.add_argument('--load_ckpt', type=str, help='Path to Checkpoint to Load')
+parser.add_argument('--load_ckpt', default='../PretrainedModels/DDPM_100.pth',type=str, help='Path to Checkpoint to Load')
 args = parser.parse_args()
 
 
