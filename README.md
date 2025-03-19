@@ -98,9 +98,6 @@ python UIEB_pretrain.py --video-data-path <video pretrain root> --test-video <te
 python inference.py --test-video <test video root>
 ```
 
-## Acknowledgement :heart:
-
-
 ## Citation
 If you find UnDIVE useful in your research or applications, please consider giving us a star 🌟 and citing it using the following:
 
