@@ -16,6 +16,8 @@ With the rise of marine exploration, underwater imaging has gained significant a
 ![](Assets/overview.png)
 
 ## Usage
+For a help Menu
+use ```python <filename> -h```
 ### Setup Environment
 ```bash
 conda create -n undive -f environment.yml
@@ -64,22 +66,38 @@ python ./BackScatterRemoval/bsr.py --video-path <video_frames> --depthmap-path <
 ```
 ### Optical Flows
 Use [Fast Flow Net](https://github.com/ltkong218/FastFlowNet) to compute Optical Flows.<br>
-Move the files ```./OpticalFlows/run_forward.py and ./OpticalFlows/run_backward.py``` to ```FastFlowNet/```
+Move the files ```./OpticalFlows/run_forward.py and ./OpticalFlows/run_backward.py``` to ```FastFlowNet/```<br>
 Run ```OpticalFlows/get_flows.py```
 ```bash
 python OpticalFlows/get_flows.py --orig-root <Train Data> --ffn-root <FastFlowNet> --flow-root <Output Flows>
 ```
-### DDPM Training
-
-### DDPM Inference
-
-### Image Pretraining
-
-### UnDIVE Training
-
-### UnDIVE Inference
-
-
+### Generative Prior
+#### Setup Environment
+```bash
+conda create -n undive_ddpm -f ./GenerativePrior/environment.yml
+conda activate undive_ddpm
+```
+#### DDPM Training
+```bash
+python ./GenerativePrior/DDPM.py
+```
+#### DDPM Inference
+```bash
+python ./GenerativePrior/inference.py 
+```
+### Training
+#### Image Pretraining
+```bash
+python UIEB_pretrain.py --image-data-path <image pretrain root> --test-video <test video root>
+```
+#### UnDIVE Training
+```bash
+python UIEB_pretrain.py --video-data-path <video pretrain root> --test-video <test video root>
+```
+### Inference
+```bash
+python inference.py --test-video <test video root>
+```
 
 ## Acknowledgement :heart:
 
