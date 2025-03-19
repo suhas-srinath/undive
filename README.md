@@ -91,7 +91,7 @@ python UIEB_pretrain.py --image-data-path <image pretrain root> --test-video <te
 ```
 #### UnDIVE Training
 ```bash
-python UIEB_pretrain.py --video-data-path <video pretrain root> --test-video <test video root>
+python UnDIVE_train.py --video-data-path <video pretrain root> --test-video <test video root>
 ```
 ### Inference
 ```bash
@@ -110,4 +110,4 @@ If you find UnDIVE useful in your research or applications, please consider givi
     year      = {2025},
     pages     = {8983-8994}
 }
-}
+```
