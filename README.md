@@ -3,6 +3,9 @@
 <h3>Generalized Underwater Video Enhancement Using Generative Priors</h3> 
   
 [Suhas Srinath]()<sup>1</sup> [Aditya Chandrasekar]()<sup>2</sup> [Hemang Jamadagni]()<sup>3</sup> [Rajiv Soundararajan]()<sup>1</sup> [Prathosh A P]()<sup>1</sup> <br>
+
+<sup>1</sup> Indian Institute of Science, <sup>2</sup>  Qualcomm,  <sup>3</sup> National Institute of Technology Karnataka
+
 WACV 2025 ([conference paper](https://openaccess.thecvf.com/content/WACV2025/papers/Srinath_UnDIVE_Generalized_Underwater_Video_Enhancement_using_Generative_Priors_WACV_2025_paper.pdf)) ArXiv Preprint([arXiv 2411.05886](https://arxiv.org/pdf/2411.05886))
 </div>
 
